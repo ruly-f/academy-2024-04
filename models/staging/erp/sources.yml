@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: erp
+    database: fea24_4
+    schema: raw_northwind  
+    tables:
+      - name: product
+      - name: category
+      - name: supplier

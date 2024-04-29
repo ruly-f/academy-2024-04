@@ -14,12 +14,12 @@ sources:
             tests:
               - unique
               - not_null
-              
       - name: orderdetail
         columns:
           - name: id
             tests:
               - unique
               - not_null
-              
       - name: employee
+      - name: customer
+      - name: shipper
